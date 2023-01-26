@@ -145,7 +145,17 @@ const questions = ref([
     ],
     selected: null
   },
-  
+  {
+    id: 14,
+    question: 'How many siblings do i have?',
+    answer: 1,
+    options: [
+      '4',
+      '5',
+      '3'
+    ],
+    selected: null
+  },
 ])
 
 const quizCompleted = ref(false)
